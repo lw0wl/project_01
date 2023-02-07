@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f5f7f9;
+        }
+        .box{
+            width: 1200px;
+            margin: 0 auto;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            background-color: #efece7;
+            
+        }
+        .header{
+            width: 100%;
+            height: 283px;
+        }
+        .header .left{
+            width: 706px;
+            height: 283px;
+            box-sizing: border-box;
+            float: left;
+            padding-top: 60px;
+            padding-left: 350px;
+            background-image: url(./img01.png);
+            color: white;
+        }
+        h1{
+            font-size: 40px;
+        }
+        .right{
+            float: left;
+            list-style: none;
+            padding-top: 30px;
+            padding-left: 100px;
+        }
+        .right li{
+            height: 35px;
+            margin-bottom: 15px;  
+        }
+        .right li .icon{
+            display: inline-block;
+            width: 40px;
+            height: 35px;
+            background-image: url(./img01.png);
+        }
+        .right li .text{
+            display: inline-block;
+            margin-left: 20px;
+            line-height: 38px;
+            vertical-align: top;
+            font-size: 18px;
+        }
+        .right li:nth-child(1) .icon{
+            background-position: -15px -314px;
+        }
+        .right li:nth-child(2) .icon{
+            background-position: -51px -314px;
+        }
+        .right li:nth-child(3) .icon{
+            background-position: -87px -314px;
+        }
+        .right li:nth-child(4) .icon{
+            background-position: -122px -314px;
+        }
+        .content{
+            width: 1030px;
+            margin: 30px auto;
+        }
+        .content .title{
+            width: 1030px;
+            height: 41px;
+            background-image: url(./img01.png);
+            background-position: 0 -360px;
+            color: white;
+        }
+        .content .title .icon{
+            display: inline-block;
+            width: 50px;
+            height: 41px;
+            background-image: url(./img01.png);
+        }
+        .content .title .text{
+            display: inline-block;
+            height: 41px;
+            vertical-align: top;
+            line-height: 40px;
+            font-size: 22px;
+            margin-left: 30px;
+        }
+        h3{
+            color: #00bca6;
+            padding-left: 20px;
+        }
+        h3 span{
+            margin-right: 80px;
+        }
+        .detail{
+            padding: 5px 20px;
+            font-size: 18px;
+        }
+        .idu .title .icon{
+            background-position: -164px -316px;
+        }
+        .history .title .icon{
+            background-position: -213px -316px;
+        }
+        .comment .title .icon{
+            background-position: -213px -316px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="header">
+            <div class="left">
+                    <h1>梁&nbsp;&nbsp;&nbsp;伟</h1>
+                    <span>html5前端开发工程师</span>
+            </div>
+            <ul class="right">
+                <li>
+                    <span class="icon"></span>
+                    <span class="text">生日：1991.10</span>
+                </li>
+                <li><span class="icon"></span>
+                    <span class="text">现居：陕西咸阳</span>
+                </li>
+                <li><span class="icon"></span>
+                    <span class="text">电话：13034139471</span>
+                </li>
+                <li><span class="icon"></span>
+                    <span class="text">邮箱：908275467@qq.com</span>
+                </li>
+            </ul>
+        </div>
+        <div class="content idu">
+            <div class="title">
+                <span class="icon"></span>
+                <span class="text">教 育 背 景</span>
+            </div>
+            <h3>
+                <span>2010.09—2014.6</span>
+                <span>解放军工程大学</span>
+                <span>本科</span>
+                <span>电气工程及其自动化</span>
+            </h3>
+            <div class="detail">
+                <p>主修课程：</p>
+                <p>政治经济学、高等数学、c语言、汇编语言、数字电路、模拟电路、单片机技术、计算机控制系统、逻辑学、概率论等。同时在校期间自考律师专业，获得法学和工学双学士学位。</p>
+                <p>自学课程：</p>
+                <p>Java、c#、.net、数据库、html、css、JavaScript、Ajax、jQuery、Node.js、Vue、React、小程序、哲学、心理学、经济学等。</p>
+            </div>
+        </div>
+        <div class="content history">
+            <div class="title">
+                <span class="icon"></span>
+                <span class="text">工 作 经 历</span>
+            </div>
+            <h3>
+                <span>2010.09—2015.6</span>
+                <span>学校</span>
+                <span>学生</span>
+            </h3>
+            <div class="detail">
+                <p>参加机器人建模大赛获得二等奖；<br>
+                    独立完成基于asp.net校内教研室网站制作搭建，并负责维护；<br>
+                    参与单片机代码汇编语言到c语言的反编译项目。
+                </p>
+            </div>
+            <h3>
+                <span>2015.06—2022.12</span>
+                <span>体质内</span>
+                <span>职员</span>
+            </h3>
+            <div class="detail">
+                <p>负责单位内网网站功能开发与维护；<br>
+                    独立开发完成基于Java swing + MySQL的仓库管理系统；<br>
+                    参与完成基于中标麒麟Linux系统下的内网软件开发项目；<br>
+                    独自开发商用基于微信云开发的蛋糕店微信小程序。
+                </p>
+            </div>
+        </div>
+        <div class="content comment">
+            <div class="title">
+                <span class="icon"></span>
+                <span class="text">自 我 评 价</span>
+            </div>
+            <div class="detail">
+                <p>工作积极认真，细心负责，熟练运用办公自动化软件，善于在工作中提出问题、发现问题、解决问题，有较强的分析能力；勤奋好学，踏实肯干，动手能力强，认真负责，有很强的社会责任感；坚毅不拔，吃苦耐劳，喜欢和勇于迎接新挑战。基于多年部队带兵经验，有良好的沟通与团队协作能力。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
